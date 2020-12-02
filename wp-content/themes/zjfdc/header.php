@@ -222,9 +222,9 @@
 
 				<div class="banner">
 					<ul>
-                        <li class="right_border"><a href="http://localhost:801/wp">网站首页</a></li>
-						<li class="right_border"><a href="http://localhost:801/wp/?cat=7">通知公告</a></li>
-                        <li class="right_border"><a href="http://localhost:801/wp/?cat=3">政策法规</a></li>
+                        <li class="right_border"><a href="<?php echo site_url() ?>">网站首页</a></li>
+						<li class="right_border"><a href="<?php echo site_url() ?>/?cat=7">通知公告</a></li>
+                        <li class="right_border"><a href="<?php echo site_url() ?>/?cat=3">政策法规</a></li>
                         <li class="right_border"><a href="http://221.6.146.72:9080/estate2/publish/" target="_blank">商品房交易信息</a></li>
                         <li class="right_border"><a href="http://221.6.146.71:9080/shestate2/publish/publishMng.action" target="_blank">存量房交易信息</a></li>
                         <!-- <li class="right_border"><a href="http://wssq.zjbdcdj.cn/wsyy/login_keyuser.jsp" target="_blank">不动产网上办事大厅</a></li> -->
