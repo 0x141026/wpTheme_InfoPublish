@@ -1,0 +1,134 @@
+<div>
+	<div style="width:100%;overflow:hidden">
+		<div style="width:50%;float:left;border-right:solid 1px #c9c9c9;text-align:left">
+			<div class="news_tzgg_title">
+				<font style="margin-left: 10px;"> <?php echo get_cat_name(5).":"?></font>
+				<span>
+					<a href="<?php echo home_url(); ?>/?cat=5" target="_blank">更多</a>
+				</span>
+			</div>
+			<div id="content_news">
+				<ul style="line-height:2">
+					<?php
+					query_posts('showposts=4&cat=5'); //showposts=10表示10篇
+					$i=0;
+					while(have_posts()): the_post();
+				?>
+					<li>
+						<a href="<?php the_permalink(); ?>" target="_blank">
+							<img style="margin-left: 5px;" height="15" width="15"
+								src="<?php echo GET_TEMPLATE_DIRECTORY_URI() ?>/img/index/lbt_right_but.png" border="0"
+								align="absmiddle" />
+							<?php echo wp_trim_words( get_the_title(), 18, '...' ); ?>
+						</a>
+						<?php if(cal_news(get_the_time('Y-m-d'))<=0){ ?>
+						<img src="<?php echo GET_TEMPLATE_DIRECTORY_URI() ?>/img/new.jpg" />
+						<?php } ?>
+
+						<span style="float:right" class="news_time"><?php the_time('Y-m-d') ?></span>
+					</li>
+					<?php $i=$i+1; endwhile; ?>
+				</ul>
+			</div>
+		</div>
+		<div style="width:50%;float:right;text-align:left">
+			<div class="news_tzgg_title">
+				<font> <?php echo get_cat_name(6).":"?></font>
+				<span style="margin-right: 30px;">
+					<a href="<?php echo home_url(); ?>/?cat=6" target="_blank">更多</a>
+				</span>
+			</div>
+
+			<div id="content_news">
+				<ul style="line-height:2">
+					<?php
+					query_posts('showposts=4&cat=6'); //showposts=10表示10篇
+					$i=0;
+					while(have_posts()): the_post();
+				?>
+					<li>
+						<a href="<?php the_permalink(); ?>" target="_blank">
+							<img height="15" width="15"
+								src="<?php echo GET_TEMPLATE_DIRECTORY_URI() ?>/img/index/lbt_right_but.png" border="0"
+								align="absmiddle" />
+							<?php echo wp_trim_words( get_the_title(), 18, '...' ); ?>
+						</a>
+						<?php
+						if(cal_news(get_the_time('Y-m-d'))<=0){ ?>
+						<img src="<?php echo GET_TEMPLATE_DIRECTORY_URI() ?>/img/new.jpg />
+					<?php } ?>
+					
+					<span style=" float:right" class="news_time"><?php the_time('Y-m-d') ?></span>
+					</li>
+					<?php $i=$i+1; endwhile; ?>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div style="width:100%;overflow:hidden">
+		<div style="width:50%;float:left;border-right:solid 1px #c9c9c9;text-align:left">
+			<div class="news_tzgg_title">
+				<font style="margin-left: 10px;"> <?php echo get_cat_name(3).":"?></font>
+				<span>
+					<a href="<?php echo home_url(); ?>/?cat=3" target="_blank">更多</a>
+				</span>
+			</div>
+			<div id="content_news">
+				<ul style="line-height:2">
+					<?php
+				query_posts('showposts=4&cat=3'); //showposts=10表示10篇
+				$i=0;
+				while(have_posts()): the_post();
+			?>
+					<li>
+						<a href="<?php the_permalink(); ?>" target="_blank">
+							<img style="margin-left: 5px;" height="15" width="15"
+								src="<?php echo GET_TEMPLATE_DIRECTORY_URI() ?>/img/index/lbt_right_but.png" border="0"
+								align="absmiddle" />
+							<?php echo wp_trim_words( get_the_title(), 18, '...' ); ?>
+						</a>
+						<?php
+					if(cal_news(get_the_time('Y-m-d'))<=0){ ?>
+						<img src="<?php echo GET_TEMPLATE_DIRECTORY_URI() ?>/img/new.jpg" />
+						<?php } ?>
+
+						<span style="float:right" class="news_time"><?php the_time('Y-m-d') ?></span>
+					</li>
+					<?php $i=$i+1; endwhile; ?>
+				</ul>
+			</div>
+		</div>
+		<div style="width:50%;float:right;text-align:left">
+			<div class="news_tzgg_title">
+				<font> <?php echo get_cat_name(7).":"?></font>
+				<span style="margin-right: 30px;">
+					<a href="<?php echo home_url(); ?>/?cat=7" target="_blank">更多</a>
+				</span>
+			</div>
+			<div id="content_news">
+				<ul style="line-height:2">
+					<?php
+					query_posts('showposts=4&cat=7'); //showposts=10表示10篇
+					$i=0;
+					while(have_posts()): the_post();
+				?>
+					<li>
+						<a href="<?php the_permalink(); ?>" target="_blank">
+							<img height="15" width="15"
+								src="<?php echo GET_TEMPLATE_DIRECTORY_URI() ?>/img/index/lbt_right_but.png" border="0"
+								align="absmiddle" />
+							<?php echo wp_trim_words( get_the_title(), 18, '...' ); ?>
+						</a>
+						<?php
+						if(cal_news(get_the_time('Y-m-d'))<=0){ ?>
+						<img src="<?php echo GET_TEMPLATE_DIRECTORY_URI() ?>/img/new.jpg" />
+						<?php } ?>
+
+						<span style="float:right" class="news_time"><?php the_time('Y-m-d') ?></span>
+					</li>
+					<?php $i=$i+1; endwhile; ?>
+				</ul>
+			</div>
+		</div>
+
+	</div>
