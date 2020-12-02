@@ -121,7 +121,7 @@ get_header(); ?>
 </div>
 <div class="layui-container" style="padding-left: 0px;">  
     <div class="layui-row">
-    <div class="layui-col-md6" style="border-right: gray dotted 1px;">
+		<div class="layui-col-md6" style="border-right: gray dotted 1px;">
             <!-- <div class="zykdh_title" style=""><font style="width:210;border-bottom: 2px solid #0e5298;">窗口实时排号情况</font></div> -->
             <div class="news_tzgg_title">
 				<font style="background-size: 100% 100%;width: 150px;">窗口实时排号情况</font>
@@ -134,7 +134,7 @@ get_header(); ?>
         </div>
         <div class="layui-col-md6" style="border-right: gray solid 1px;">
             <div class="news_tzgg_title">
-                <font style="margin-left: 10px;"> <?php echo get_cat_name(2).":"?></font>
+                <font style="margin-left: 0px;"> <?php echo get_cat_name(2).":"?></font>
                 <span>
                     <a href="<?php echo home_url(); ?>/?cat=2" target="_blank">更多</a>
                 </span>
