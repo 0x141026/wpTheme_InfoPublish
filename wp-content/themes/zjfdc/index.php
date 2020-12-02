@@ -134,15 +134,15 @@ get_header(); ?>
         </div>
         <div class="layui-col-md6" style="border-right: gray solid 1px;">
             <div class="news_tzgg_title">
-                <font style="margin-left: 10px;"> <?php echo get_cat_name(7).":"?></font>
+                <font style="margin-left: 10px;"> <?php echo get_cat_name(2).":"?></font>
                 <span>
-                    <a href="<?php echo home_url(); ?>/?cat=3" target="_blank">更多</a>
+                    <a href="<?php echo home_url(); ?>/?cat=2" target="_blank">更多</a>
                 </span>
             </div>
             <div id="content_news">
                 <ul style="line-height:2">
                     <?php
-                        query_posts('showposts=8&cat=7'); //showposts=10表示10篇
+                        query_posts('showposts=8&cat=2'); //showposts=10表示10篇
                         $i=0;
                         while(have_posts()): the_post();
                     ?>
