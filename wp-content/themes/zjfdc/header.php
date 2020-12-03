@@ -216,7 +216,7 @@
 
 	<body >
 				
-		<div class="main">
+		<div class="main" style="background-position: center -20px;">
 			<div class="main_box" style="width: 1100px;">
 
 				<div class="logo"  style="background-size: 100% 100%;"></div>
