@@ -20,26 +20,47 @@
                           <tr>
                             <td height="24" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="23%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.mohurd.gov.cn/" target="_blank">住房和城乡建设部</a></div></td>
                             <td height="24" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="14%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.crei.cn" target="_blank">中国房地产信息网</a></div></td>
-                            <td height="24" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="15%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.jscin.gov.cn" target="_blank">江苏省住建厅</a></div></td>
+                            <!-- <td height="24" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="15%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.jscin.gov.cn" target="_blank">江苏省住建厅</a></div></td> -->
                             <td height="24" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="14%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.jshouse.com.cn/" target="_blank">江苏住宅产业网</a></div></td>
                             <td height="24" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="13%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.zhenjiang.gov.cn/" target="_blank">镇江市政府</a></div></td>
                             <td height="24" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="21%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.cacem.com.cn/" target="_blank">中国工程建设网</a></div></td>
                           </tr>
                           <tr>
-                            <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="23%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.zjzfjj.com.cn/" target="_blank">镇江市住房公积金管理中心</a></div></td>
-                            <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="14%" bgcolor="#E6E6E6"><div align="center"><a href="http://wjj.zhenjiang.gov.cn/" target="_blank">镇江市物价局</a></div></td>
+                            <!-- <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="23%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.zjzfjj.com.cn/" target="_blank">镇江市住房公积金管理中心</a></div></td> -->
+                            <!-- <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="14%" bgcolor="#E6E6E6"><div align="center"><a href="http://wjj.zhenjiang.gov.cn/" target="_blank">镇江市物价局</a></div></td> -->
                             <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="15%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.zjsghj.gov.cn/" target="_blank">镇江市规划局</a></div></td>
-                            <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="14%" bgcolor="#E6E6E6"><div align="center"><a href="http://gtj.zhenjiang.gov.cn/" target="_blank">镇江市国土局</a></div></td>
+                            <!-- <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="14%" bgcolor="#E6E6E6"><div align="center"><a href="http://gtj.zhenjiang.gov.cn/" target="_blank">镇江市国土局</a></div></td> -->
                             <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="13%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.hrol.cn/" target="_blank">镇江人才市场</a></div></td>
-                            <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="21%" bgcolor="#E6E6E6"><div align="center"><a href="http://zscqj.zhenjiang.gov.cn" target="_blank">镇江市知识产权局</a></div></td>
-                          </tr>
-                          <tr>
-                            <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="23%" bgcolor="#E6E6E6"><div align="center"><a href="http://jsjold.zhenjiang.gov.cn/" target="_blank">镇江市住房和城乡建设局</a></div></td>
+                            <!-- <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="21%" bgcolor="#E6E6E6"><div align="center"><a href="http://zscqj.zhenjiang.gov.cn" target="_blank">镇江市知识产权局</a></div></td> -->
                             <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="14%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.jsw.com.cn/" target="_blank">金山网</a></div></td>
                             <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="15%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.smezj.com" target="_blank">镇江企业网络服务</a></div></td>
                             <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="14%" bgcolor="#E6E6E6"><div align="center"><a href="http://www.xinhuanet.com/" target="_blank">新华网</a></div></td>
                           </tr>
+                          <!-- <tr> -->
+                            <!-- <td height="22" onMouseMove="this.bgColor='FFFFFF'" onMouseOut="this.bgColor='#E6E6E6'" width="23%" bgcolor="#E6E6E6"><div align="center"><a href="http://jsjold.zhenjiang.gov.cn/" target="_blank">镇江市住房和城乡建设局</a></div></td> -->
+                          <!-- </tr> -->
                         </tbody>
+                      </table>
+                        <table width="100%" border="1" height="90%">
+                          <tbody>
+                            <tr>
+                              <td width="25%"><div align="center">长三角房地产信息网联盟</div></td>
+                              <td width="25%"><div align="center"><a href="http://www.zjfdc.net/" target="_blank">镇江房地产信息网</a></div></td>
+                              <td width="25%"><div align="center"><a href="http://www.wxhouse.com/" target="_blank">无锡房地产市场</a></div></td>
+                              <td width="25%"><div align="center"><a href="http://www.njhouse.com.cn/" target="_blank">南京房地产信息网</a></div></td>
+                            </tr>
+                            <tr>
+                              <td rowspan="2"><div align="center"><a href="http://www.zjfdc.net" target="_blank">镇江房地产信息网</a></div></td>
+                              <td width="25%"><div align="center"><a href="http://www.ntfc.gov.cn" target="_blank">南通房产</a></div></td>
+                              <td width="25%"><div align="center"><a href="http://www.czfdc.com.cn" target="_blank">常州房地产信息网</a></div></td>
+                              <td width="25%"><div align="center"><a href="http://www.yzfdc.net" target="_blank">扬州房地产信息网</a></div></td>
+                            </tr>
+                            <tr>
+                              <td width="25%"><div align="center"><a href="http://www.srea.org.cn/" target="_blank">上海房协</a></div></td>
+                              <td width="25%"><div align="center"><a href="http://www.hufdc.com" target="_blank">湖州房产网</a></div></td>
+                              <td width="25%"><div align="center">————</div></td>
+                            </tr>
+                          </tbody>
                       </table>
                         <table width="100%" border="1" height="90%">
                           <tbody>
