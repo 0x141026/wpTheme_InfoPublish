@@ -77,6 +77,7 @@
         <style>
         /** 应用快捷块样式 */
         .console-app-group {
+            width: 92px;
             padding: 16px;
             border-radius: 4px;
             text-align: center;
