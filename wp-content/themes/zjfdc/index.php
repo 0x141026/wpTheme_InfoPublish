@@ -34,22 +34,16 @@ get_header(); ?>
     <div class="layui-col-sm6" style="padding-bottom: 0;">
         <div class="layui-row layui-col-space15">
             <div class="layui-col-xs6 layui-col-sm2">
-                <div class="console-app-group" ew-href="https://www.zjbdcdj.cn/Wap/Inarticle/index?id=20" ew-title="行业动态">
-                    <i class="console-app-icon layui-icon layui-icon-group"
-                        style="font-size: 26px;padding-top: 3px;margin-right: 6px;"></i>
-                    <div class="console-app-name">行业动态</div>
-                </div>
-            </div>
-            <div class="layui-col-xs6 layui-col-sm2">
-                <div class="console-app-group" ew-href="https://www.zjbdcdj.cn/Wap/Download/index" >
-                    <i class="console-app-icon layui-icon layui-icon-table" style="color: #95de64;"></i>
-                    <div class="console-app-name">表格下载</div>
-                </div>
-            </div>
-            <div class="layui-col-xs6 layui-col-sm2">
                 <div class="console-app-group" ew-href="https://mp.weixin.qq.com/s?__biz=MzAwMjk4OTkyNA==&mid=100000526&idx=1&sn=87e3b6dc81ed22df44ac75f2546e8870&chksm=1ac349052db4c013213a62b48d4b739ccb703ebf7d60a2617332ab2c841508e56f9505c286fc#rd">
                     <i class="console-app-icon layui-icon layui-icon-about" style="color: #ff9c6e;"></i>
                     <div class="console-app-name">中心介绍</div>
+                </div>
+            </div>
+            <div class="layui-col-xs6 layui-col-sm2">
+                <div class="console-app-group" ew-href="https://www.zjbdcdj.cn/Wap/Sssite/index">
+                    <i class="console-app-icon layui-icon layui-icon-location"
+                        style="color: #ffd666;font-size: 34px;"></i>
+                    <div class="console-app-name">办公地点</div>
                 </div>
             </div>
             <div class="layui-col-xs6 layui-col-sm2">
@@ -60,35 +54,10 @@ get_header(); ?>
                 </div>
             </div>
             <div class="layui-col-xs6 layui-col-sm2">
-                <div class="console-app-group" ew-href="https://www.zjbdcdj.cn/Wap/Inarticle/index2?id=1">
-                    <i class="console-app-icon layui-icon layui-icon-util"
-                        style="color: #5bb195f2;font-size: 30px;"></i>
-                    <div class="console-app-name">办事指南</div>
-                </div>
-            </div>
-            <div class="layui-col-xs6 layui-col-sm2">
                 <div class="console-app-group" ew-href="https://www.zjbdcdj.cn/Wap/Inarticle/index2?id=3">
                     <i class="console-app-icon layui-icon layui-icon-help"
                         style="color: #2d8cf0;font-size: 30px;"></i>
                     <div class="console-app-name">常见问题</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="layui-col-sm6" style="padding-bottom: 0;">
-        <div class="layui-row layui-col-space15">
-            <div class="layui-col-xs6 layui-col-sm2">
-                <div class="console-app-group" ew-href="https://www.zjbdcdj.cn/Wap/Sssite/index">
-                    <i class="console-app-icon layui-icon layui-icon-location"
-                        style="color: #ffd666;font-size: 34px;"></i>
-                    <div class="console-app-name">办公地点</div>
-                </div>
-            </div>
-            <div class="layui-col-xs6 layui-col-sm2">
-                <div class="console-app-group" ew-href="https://mp.weixin.qq.com/s?__biz=MzAwMjk4OTkyNA==&mid=2247483712&idx=1&sn=b73cf60be0e782ae664f06d6fa27fe90&scene=0&pass_ticket=1tsyB9Z%2F49cYtEn4QeD56dPGlzzE2hk2qTLH6bMxMq632jzLSn4%2F6ZCiS%2FZkNEi%2B#rd">
-                    <i class="console-app-icon layui-icon layui-icon-survey"
-                        style="color: #5cdbd3;font-size: 36px;"></i>
-                    <div class="console-app-name">权籍调查</div>
                 </div>
             </div>
             <div class="layui-col-xs6 layui-col-sm2">
@@ -104,6 +73,36 @@ get_header(); ?>
                     <div class="console-app-name">政策文件</div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="layui-col-sm6" style="padding-bottom: 0;">
+        <div class="layui-row layui-col-space15">
+            <div class="layui-col-xs6 layui-col-sm2">
+                <div class="console-app-group" ew-href="https://www.zjbdcdj.cn/Wap/Inarticle/index?id=20" ew-title="行业动态">
+                    <i class="console-app-icon layui-icon layui-icon-group"
+                        style="font-size: 26px;padding-top: 3px;margin-right: 6px;"></i>
+                    <div class="console-app-name">行业动态</div>
+                </div>
+            </div>
+            <div class="layui-col-xs6 layui-col-sm2">
+                <div class="console-app-group" ew-href="https://www.zjbdcdj.cn/Wap/Inarticle/index2?id=1">
+                    <i class="console-app-icon layui-icon layui-icon-util"
+                        style="color: #5bb195f2;font-size: 30px;"></i>
+                    <div class="console-app-name">办事指南</div>
+                </div>
+            </div>
+            <div class="layui-col-xs6 layui-col-sm2">
+                <div class="console-app-group" ew-href="https://www.zjbdcdj.cn/Wap/Download/index" >
+                    <i class="console-app-icon layui-icon layui-icon-table" style="color: #95de64;"></i>
+                    <div class="console-app-name">表格下载</div>
+                </div>
+            </div>
+            <div class="layui-col-xs6 layui-col-sm2">
+                <div class="console-app-group" ew-href="https://www.zjbdcdj.cn/Wap/Fapeople/appoint">
+                    <i class="console-app-icon layui-icon layui-icon-form" style="color: #fb7299;"></i>
+                    <div class="console-app-name">预约服务</div>
+                </div>
+            </div>
             <div class="layui-col-xs6 layui-col-sm2">
                 <div class="console-app-group" ew-href="https://www.zjbdcdj.cn/Wap/Fapeople/opinion">
                     <i class="console-app-icon layui-icon layui-icon-template-1" style="color: #00a65a;"></i>
@@ -111,9 +110,10 @@ get_header(); ?>
                 </div>
             </div>
             <div class="layui-col-xs6 layui-col-sm2">
-                <div class="console-app-group" ew-href="https://www.zjbdcdj.cn/Wap/Fapeople/appoint">
-                    <i class="console-app-icon layui-icon layui-icon-form" style="color: #fb7299;"></i>
-                    <div class="console-app-name">预约服务</div>
+                <div class="console-app-group" ew-href="https://mp.weixin.qq.com/s?__biz=MzAwMjk4OTkyNA==&mid=2247483712&idx=1&sn=b73cf60be0e782ae664f06d6fa27fe90&scene=0&pass_ticket=1tsyB9Z%2F49cYtEn4QeD56dPGlzzE2hk2qTLH6bMxMq632jzLSn4%2F6ZCiS%2FZkNEi%2B#rd">
+                    <i class="console-app-icon layui-icon layui-icon-survey"
+                        style="color: #5cdbd3;font-size: 36px;"></i>
+                    <div class="console-app-name">权籍调查</div>
                 </div>
             </div>
         </div>
